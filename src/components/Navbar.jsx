@@ -12,7 +12,7 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
     },
     {
       id: 2,
-      link: "products",
+      link: "Introduction",
     },
     {
       id: 3,
@@ -49,7 +49,7 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
                 </li>
               ))}
             </ul>
-            <GradientBtn className="ml-4 capitalize" title="click" />
+            <GradientBtn className="ml-4 capitalize" title="" />
           </div>
 
           <div
@@ -79,7 +79,7 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
               </Link>
             </li>
           ))}
-          <GradientBtn className="mt-10 capitalize" title="Click" />
+          <GradientBtn className="mt-10 capitalize" title="" />
         </ul>
       </div>
     </>

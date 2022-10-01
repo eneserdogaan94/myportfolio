@@ -3,7 +3,7 @@ import MySkills from "./components/MySkills";
 import About from "./components/About";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
-import Prodcuts from "./components/Prodcuts";
+import Introduction from "./components/Introduction";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import SocialLinks from "./components/SocialLinks";
@@ -15,7 +15,7 @@ function App() {
     <div>
       <Navbar isMenuShown={isMenuShown} setIsMenuShown={setIsMenuShown} />
       <HeroSection isMenuShown={isMenuShown} />
-      <Prodcuts />
+      <Introduction />
       <About/>
       <MySkills />
       <Contact />

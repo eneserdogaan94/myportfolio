@@ -1,5 +1,4 @@
 import React from "react";
-import { FaSmile } from "react-icons/fa";
 
 import codeImage from "../assets/code.jpg";
 import PageSection from "./PageSection";
