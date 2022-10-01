@@ -2,7 +2,6 @@ import React from "react";
 import PageSection from "./PageSection";
 
 import contactImage from "../assets/contact-us.jpg";
-import { FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import ContactForm from "./ContactForm";
 
 const Contact = () => {
@@ -29,12 +28,6 @@ const Contact = () => {
           </p>
 
           <div className="grid grid-cols-2 mx-auto w-4/5 gap-10">
-            <div className="flex items-center justify-center rounded-full shadow-md shadow-thPurple hover:scale-105 duration-200 p-3 cursor-pointer">
-              <FaLinkedin size={25} />
-            </div>
-            <div className="flex items-center justify-center rounded-full shadow-md shadow-thPurple hover:scale-105 duration-200 p-3 cursor-pointer">
-              <FaInstagram size={25} />
-            </div>
           </div>
         </div>
 

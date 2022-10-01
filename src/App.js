@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Prodcuts from "./components/Prodcuts";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import SocialLinks from "./components/SocialLinks";
 
 function App() {
   const [isMenuShown, setIsMenuShown] = useState(false);
@@ -19,6 +20,7 @@ function App() {
       <MySkills />
       <Contact />
       <Footer />
+      <SocialLinks/>
     </div>
   );
 }
