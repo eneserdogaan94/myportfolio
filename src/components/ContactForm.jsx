@@ -5,7 +5,7 @@ const ContactForm = () => {
   return (
     <div className="p-4 text-left">
       <form
-        action="https://getform.io/f/6d61d3bb-f695-4698-aa1f-9891cd5f88d5"
+        action= "https://getform.io/f/0e7e7089-0ab5-4938-9ee9-c5a23047cc7d"
         method="POST"
       >
         <div className="grid lg:grid-cols-2 gap-4 w-full py-2">

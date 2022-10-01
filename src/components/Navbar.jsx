@@ -20,7 +20,7 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
     },
     {
       id: 4,
-      link: "customers",
+      link: "experience",
     },
     {
       id: 5,
