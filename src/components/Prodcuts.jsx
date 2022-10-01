@@ -1,35 +1,35 @@
 import React from "react";
 import PageSection from "./PageSection";
 
-import { FaRocket, FaSatellite, FaRobot, FaMicrochip } from "react-icons/fa";
+import { FaDatabase, FaJava, FaReact, FaGit } from "react-icons/fa";
 
 const Prodcuts = () => {
   const products = [
     {
       id: 1,
-      icon: <FaRocket size={50} className="text-white" />,
-      title: "rocket manufacturing",
+      icon: <FaReact size={50} className="text-white" />,
+      title: "Frontend Development",
       subtitle:
         "Fact from with my the i, this shadows soul i mien was of bird, raven till mien before by of. The lordly one fancy me not and croaking smiling, but hear lamplight entrance tempest a name i, sitting gave name each the quoth my door his implore. I i nothing.",
     },
     {
       id: 2,
-      icon: <FaMicrochip size={50} className="text-white" />,
-      title: "advanced electronics",
+      icon: <FaJava size={50} className="text-white" />,
+      title: "Backend Development",
       subtitle:
         "Fact from with my the i, this shadows soul i mien was of bird, raven till mien before by of. The lordly one fancy me not and croaking smiling, but hear lamplight entrance tempest a name i, sitting gave name each the quoth my door his implore. I i nothing.",
     },
     {
       id: 3,
-      icon: <FaRobot size={50} className="text-white" />,
-      title: "robotics",
+      icon: <FaDatabase size={50} className="text-white" />,
+      title: "Database",
       subtitle:
         "Fact from with my the i, this shadows soul i mien was of bird, raven till mien before by of. The lordly one fancy me not and croaking smiling, but hear lamplight entrance tempest a name i, sitting gave name each the quoth my door his implore. I i nothing.",
     },
     {
       id: 4,
-      icon: <FaSatellite size={50} className="text-white" />,
-      title: "payload to orbit",
+      icon: <FaGit size={50} className="text-white" />,
+      title: "Git",
       subtitle:
         "Fact from with my the i, this shadows soul i mien was of bird, raven till mien before by of. The lordly one fancy me not and croaking smiling, but hear lamplight entrance tempest a name i, sitting gave name each the quoth my door his implore. I i nothing.",
     },

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import MySkills from "./components/MySkills";
-import DevApi from "./components/DevApi";
+import About from "./components/About";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import Prodcuts from "./components/Prodcuts";
@@ -16,7 +16,7 @@ function App() {
       <Navbar isMenuShown={isMenuShown} setIsMenuShown={setIsMenuShown} />
       <HeroSection isMenuShown={isMenuShown} />
       <Prodcuts />
-      <DevApi />
+      <About/>
       <MySkills />
       <Contact />
       <Footer />

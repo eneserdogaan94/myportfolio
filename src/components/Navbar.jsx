@@ -16,7 +16,7 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
     },
     {
       id: 3,
-      link: "developer API",
+      link: "about me",
     },
     {
       id: 4,
