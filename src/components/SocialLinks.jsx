@@ -47,7 +47,7 @@ const SocialLinks = () => {
       id: 5,
       child: (
         <>
-          My CV<BsFillPersonLinesFill size={30} />
+          Resume<BsFillPersonLinesFill size={30} />
         </>
       ),
       href: cv,
