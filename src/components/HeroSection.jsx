@@ -37,7 +37,7 @@ const HeroSection = ({ isMenuShown }) => {
       >
         <h1 className="text-5xl lg:text-7xl">Full Stack Developer</h1>
         <h1 className="text-5xl lg:text-7xl capitalize mb-12">
-          Hey Hey ! <span className="text-thBlue font-bold">Welcome to</span> my portfolio website.
+          Hello! <span className="text-thBlue font-bold">Welcome to</span> my portfolio website.
         </h1>
 
         <div className="flex flex-row justify-center items-center">
