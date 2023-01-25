@@ -33,7 +33,7 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
       <div className="absolute w-full h-24 bg-black text-white z-20">
         <div className="flex justify-between items-center max-w-screen-xl mx-auto px-4 h-full">
           <div>
-            <h1 className="text-thBlue font-signature text-3xl ml-2">Enes Erdogan</h1>
+            <h1 className="text-thBlue text-3xl ml-2">Enes Erdogan</h1>
           </div>
 
           <div className="hidden lg:flex items-center">
